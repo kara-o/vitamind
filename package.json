@@ -24,7 +24,7 @@
   },
   "scripts": {
     "gen": "mkdir -p gen && python scripts/export_db_constants.py gen/",
-    "dev": "next",
+    "dev": "next -p 8080",
     "build": "next build",
     "start": "next start"
   },
